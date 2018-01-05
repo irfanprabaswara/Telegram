@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+//Route::get('/home', 'Index@index');
+
+Route::get('/update','Index@tes');
